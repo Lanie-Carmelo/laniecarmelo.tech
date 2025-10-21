@@ -34,7 +34,7 @@ repos:
     hooks:
       - id: markdownlint
         name: Lint Markdown files
-        args: ['--config', '.markdownlint.json']
+        args: ['--style', './.mdlrc']
         exclude: '^README\.md$'
       - id: markdownlint
         name: Lint README (relaxed rules)
