@@ -1,0 +1,60 @@
+title: "Lanie Carmelo"
+description: "Faith, technology, and disability advocacy"
+author: "Lanie Carmelo"
+email: "laniecarmelo@outlook.com"
+
+baseurl: ""  # leave blank unless your site is served from a subpath
+url: "https://laniecarmelo.tech"
+
+# Social media links for SEO
+social:
+  name: Lanie Carmelo
+  links:
+    - https://github.com/lanie-carmelo
+    - https://www.linkedin.com/in/lanie-carmelo
+    - https://allovertheplace.ca/@RareBird15
+    - https://x.com/RareBird_15
+
+# Theme settings
+theme: minima
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+# SEO settings
+lang: en_US
+timezone: America/Denver
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .pre-commit-config.yaml
+  - .markdownlint.json
+  - .yamllint.yml
+  - .codespell-ignore.txt
+  - .editorconfig
+  - Makefile
+  - CONTRIBUTING.md
+  - SETUP.md
+  - QUICKREF.md
+  - SECURITY.md
+  - README.md
+
+# Defaults for pages
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
