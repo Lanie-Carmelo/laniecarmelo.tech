@@ -13,19 +13,19 @@ As a Christian, I approach accessibility as both a technical responsibility and 
 
 ## What I Focus On
 
-- **Accessibility & usability testing**  
+- **Accessibility & usability testing**
   Evaluating software and digital tools with a focus on real-world accessibility for disabled users.
 
-- **Programming & learning**  
+- **Programming & learning**
   Building skills and projects with accessibility in mind from the start.
 
-- **Disability advocacy**  
+- **Disability advocacy**
   Sharing lived experience to help make technology more inclusive for people with multiple disabilities.
 
-- **Faith-informed perspective**  
+- **Faith-informed perspective**
   Approaching life, work, and advocacy through a Christ-centered lens.
 
-- **Documenting accessibility barriers**  
+- **Documenting accessibility barriers**
   Writing about recurring accessibility challenges I encounter in games and interactive media, grounded in lived
   experience as a blind, autistic, chronically ill user.
 

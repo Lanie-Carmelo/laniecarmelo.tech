@@ -11,7 +11,7 @@ It exists for two reasons:
 - To help other disabled gamers avoid wasting time and money on things that won't work for them
 - To give developers concrete, real-world examples of where accessibility breaks down
 
-This is **not a comprehensive review list**, and it is **not a judgment of a game's quality**.  
+This is **not a comprehensive review list**, and it is **not a judgment of a game's quality**.
 A game can be excellent and still be inaccessible to me.
 
 ---
@@ -114,7 +114,7 @@ My needs are different, and these notes reflect **my specific access needs**.
 
 ## Updates
 
-This page is updated **occasionally**, when a clear pattern emerges.  
+This page is updated **occasionally**, when a clear pattern emerges.
 I do not document every game I try.
 
 If you're a developer interested in accessibility feedback, feel free to reach out via my contact information.

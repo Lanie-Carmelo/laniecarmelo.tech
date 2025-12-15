@@ -19,10 +19,13 @@ and student. Includes faith reflections, accessible tech tips, and recommended t
 
 ### Prerequisites
 
-- Ruby (version 3.0 or higher)
+- Node.js (version 20 or higher)
 - Python (version 3.8 or higher)
-- Bundler: `gem install bundler`
 - Git
+
+**For development:**
+- Pre-commit: `pipx install pre-commit` or use a Python virtual environment
+- markdownlint-cli: Installed automatically by pre-commit
 
 ### Installation
 
@@ -56,32 +59,45 @@ make test      # Build and test the site
 
 ### Pre-commit Hooks
 
-This project uses pre-commit hooks to maintain code quality. Hooks run automatically before each commit
-and include:
+This project uses [pre-commit](https://pre-commit.com/) to maintain code quality. Hooks run automatically before each commit and include:
 
 - ✅ Trailing whitespace removal
 - ✅ End-of-file fixing
 - ✅ YAML syntax checking
-- ✅ Markdown linting
+- ✅ Markdown linting (using Node.js markdownlint-cli)
 - ✅ Spelling checks
 
 To run hooks manually: `make lint`
 
 ### Project Structure
 
-```
+```text
 laniecarmelo.tech/
 ├── _config.yml              # Jekyll configuration
+├── about.md                 # About page
+├── CNAME                    # Custom domain
+├── CONTRIBUTING.md          # Contribution guidelines
+├── Gemfile                  # Ruby dependencies (for Jekyll)
 ├── index.md                 # Homepage content
+├── LICENSE                  # License
+├── Makefile                 # Build automation
+├── projects.md              # Projects summary
+├── QUICKREF.md              # Quick reference card
+├── README.md                # Project overview
+├── robots.txt               # Crawler rules
+├── SECURITY.md              # Security policy
+├── SETUP.md                 # Setup instructions
+├── writing.md               # Writing index
+├── .editorconfig            # Editor configuration
+├── .github/
+│   └── workflows/
+│       └── ci.yml           # CI/CD pipeline
+├── .markdownlint.json       # Markdown linting rules (Node.js)
 ├── .pre-commit-config.yaml  # Pre-commit hooks configuration
-├── .markdownlint.json       # Markdown linting rules
-├── .yamllint.yml           # YAML linting rules
-├── .editorconfig           # Editor configuration
-├── Gemfile                 # Ruby dependencies
-├── Makefile                # Build automation
-└── .github/
-    └── workflows/
-        └── ci.yml          # CI/CD pipeline
+├── .yamllint.yml            # YAML linting rules
+└── writing/
+    └── blind-autistic-gamer.md  # Example longform post
+    └── ... (other posts)
 ```
 
 ## 📝 Content Guidelines
@@ -92,6 +108,7 @@ laniecarmelo.tech/
 - Keep line length under 120 characters
 - Use dashes for unordered lists
 - Always include alt text for images
+- Specify a language for fenced code blocks (e.g., `bash`, `text`)
 
 ### Accessibility
 
@@ -120,6 +137,10 @@ This project is licensed under the terms specified in [LICENSE](LICENSE).
 ## 🙏 Acknowledgments
 
 Built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).
+
+---
+
+**Note:** Markdown linting is now handled by [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli) (Node.js version) via pre-commit. The old Ruby `.mdlrc` config is no longer used.
 
 ---
 

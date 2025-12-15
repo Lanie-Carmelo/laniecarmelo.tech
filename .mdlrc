@@ -1,4 +1,5 @@
 all
+exclude_rule 'MD002' # First header should be a top level header
 exclude_rule 'MD013'  # Line length
 exclude_rule 'MD026'  # Trailing punctuation in header
 exclude_rule 'MD029'  # Ordered list item prefix

@@ -63,11 +63,11 @@ I still return to them occasionally, but they aren't always sustainable.
 
 Some features that consistently matter:
 
-- **Untimed gameplay** or generous pacing  
-- **Minimal audio clutter** with the option to mute sound  
-- **Offline or idle progress**  
-- **Keyboard-only interaction**  
-- **Clear, labeled controls** that work with screen readers  
+- **Untimed gameplay** or generous pacing
+- **Minimal audio clutter** with the option to mute sound
+- **Offline or idle progress**
+- **Keyboard-only interaction**
+- **Clear, labeled controls** that work with screen readers
 
 A game can be technically accessible and still be unplayable if it overwhelms my nervous system.
 
