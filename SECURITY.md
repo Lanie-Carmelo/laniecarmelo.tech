@@ -12,7 +12,7 @@ This is a public-facing website. Security updates are applied to the main branch
 
 If you discover a security vulnerability in this project, please report it by:
 
-1. **Email**: Send details to laniecarmelo@outlook.com
+1. **Email**: Send details to lanie.rarebird15@gmail.com
 2. **Private Report**: Use GitHub's private vulnerability reporting feature
 
 ### What to Include
