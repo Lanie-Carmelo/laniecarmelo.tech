@@ -1,5 +1,6 @@
 ---
 title: What It's Like Gaming as a Blind, Autistic, Chronically Ill Woman
+nav_exclude: true
 ---
 
 *December 2024*
