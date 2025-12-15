@@ -1,71 +1,56 @@
 ---
 layout: home
-title: Home
+title: Lanie Carmelo
 permalink: /
 ---
 
-# Welcome to the Digital Hub of Lanie Carmelo
+Blind, autistic, chronically ill programmer, usability tester, and accessibility advocate focused on inclusive design.
 
-Welcome to my corner of the web—a space where faith, technology, and disability advocacy come together.
-My deep Christian faith is the cornerstone of my mission to create a more accessible world through technology.
-
-As a blind, autistic, and chronically ill programmer and usability tester, I share my journey in coding, accessibility, and advocacy through a Christ-centered lens. Together, let’s make the digital realm inclusive for all, reflecting God’s love for His children.
+My work sits at the intersection of **faith, technology, and disability advocacy**.
+As a Christian, I approach accessibility as both a technical responsibility and a reflection of God's love for His children.
 
 ---
 
-## What You’ll Find Here
+## What I Focus On
 
-- **Faith and Life**
-  Reflections on Christianity and how it guides me through life with multiple disabilities.
+- **Accessibility & usability testing**  
+  Evaluating software and digital tools with a focus on real-world accessibility for disabled users.
 
-- **Programming Projects**
-  Updates on my journey as I learn to code and create accessible apps to help others.
+- **Programming & learning**  
+  Building skills and projects with accessibility in mind from the start.
 
-- **Blog Posts**
-  Thoughts on tech, disability advocacy, books I’m reading, and everyday experiences.
+- **Disability advocacy**  
+  Sharing lived experience to help make technology more inclusive for people with multiple disabilities.
 
-- **Personal Updates**
-  Snapshots of daily life, including adventures with my Miniature Pinscher, Squeaker.
+- **Faith-informed perspective**  
+  Approaching life, work, and advocacy through a Christ-centered lens.
 
-- **Helpful Resources**
-  Tools and information that have been valuable to me and might help you too.
-
----
-
-## About Me
-
-Hi, I’m Lanie. I’m a Christian, a student at Colorado Christian University Online, and a passionate advocate for accessibility and disability rights.
-Despite living with blindness, autism, and chronic illness, I’m determined to live a full and purposeful life. My ultimate goal is to create a nonprofit that supports people with multiple disabilities by connecting them to resources, education, assistive technology, and community.
+- **Documenting accessibility barriers**  
+  Writing about recurring accessibility challenges I encounter in games and interactive media, grounded in lived
+  experience as a blind, autistic, chronically ill user.
 
 ---
 
-## Stay Connected
+## Learn More
 
-This site is for anyone who wants to learn about accessibility, follow my programming journey, or connect with someone navigating life with faith and resilience.
+- [About Me](/about/)
+- [Work and Learning](/work-and-learning/)
+- [Selected Writing](/writing/)
+- [Accessibility Notes](/accessibility-notes/)
 
-Every post is an opportunity to share something new—if one topic doesn’t resonate, the next one just might.
-Follow me at the links below, or feel free to reach out through the **Connect** page (coming soon).
+---
+
+## Connect
+
+You can find my current updates and reflections on Mastodon:
 
 - <a rel="me" href="https://allovertheplace.ca/@RareBird15">Mastodon</a>
-- <a rel="me" href="https://x.com/RareBird_15">X</a>
-- <a rel="me" href="https://www.linkedin.com/in/lanie-carmelo">LinkedIn</a>
 - <a rel="me" href="https://github.com/lanie-carmelo">GitHub</a>
-- [Email](mailto:laniecarmelo@outlook.com)
+- <a rel="me" href="https://www.linkedin.com/in/lanie-carmelo">LinkedIn</a>
+- [Email](mailto:lanie.rarebird15@gmail.com)
 
 ---
 
-## Follow My Journey
+*Faith, technology, and disability advocacy — working toward a more accessible world.*
 
-You can find my latest posts, thoughts, and updates on Mastodon:
-
-👉 **<a rel="me" href="https://allovertheplace.ca/@RareBird15">Follow me on Mastodon</a>**
-
-I share updates about:
-- Faith and daily life
-- Programming and accessibility projects
-- Disability advocacy
-- Book recommendations and reflections
-
----
-
-*“Together, let’s explore faith, technology, advocacy, and life—and work toward making the world more inclusive for everyone.”*
+This site is intentionally small and updated selectively.
