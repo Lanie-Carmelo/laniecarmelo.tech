@@ -18,6 +18,13 @@ social:
 # Theme settings
 theme: minima
 
+# Header navigation - explicitly list pages to show in navigation
+header_pages:
+  - about.md
+  - work-and-learning.md
+  - writing.md
+  - accessibility-notes.md
+
 # Build settings
 markdown: kramdown
 plugins:
