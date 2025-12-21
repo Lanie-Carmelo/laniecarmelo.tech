@@ -1,8 +1,9 @@
 ---
 title: What It's Like Gaming as a Blind, Autistic, Chronically Ill Woman
+permalink: /writing/blind-autistic-gamer/
 ---
 
-*December 2024*
+_December 2024_
 
 Gaming has been a part of my life for as long as I can remember. From puzzles as a child to text-based adventures in
 school, games have always been a place of joy, challenge, and escape.
@@ -41,15 +42,17 @@ with screen readers.
 ### Incremental Games
 
 Incremental and idle games work well for me when they:
+
 - Don't require fast reactions
 - Allow pauses without penalty
 - Avoid visual-only mechanics like maps or graphs
 
-Games like *Evolve* and *Trimps* let me think, plan, and optimize without rushing.
+Games like _Evolve_ and _Trimps_ let me think, plan, and optimize without rushing.
 
 ### MUDs and Text-Based Games
 
 I enjoy MUDs in theory, but in practice they can be exhausting:
+
 - Heavy typing
 - Spatial memory requirements
 - Social expectations
@@ -58,7 +61,7 @@ I still return to them occasionally, but they aren't always sustainable.
 
 ---
 
-## What Makes a Game Accessible *for Me*
+## What Makes a Game Accessible _for Me_
 
 Some features that consistently matter:
 
@@ -75,6 +78,7 @@ A game can be technically accessible and still be unplayable if it overwhelms my
 ## Why Finding New Games Is So Hard
 
 Many games recommended for blind players rely on:
+
 - Audio navigation
 - Spatial awareness
 - Fast reactions
@@ -82,6 +86,7 @@ Many games recommended for blind players rely on:
 Those are dealbreakers for me.
 
 On the other side, many indie or incremental games use:
+
 - Canvas
 - WebGL
 - Unity interfaces with poor labeling
@@ -95,6 +100,7 @@ I've lost count of how many times I've spent hours on a game only to discover I 
 Gaming is still meaningful to me — but only when developers understand that accessibility isn't one-size-fits-all.
 
 For multiply disabled players, accessibility means:
+
 - flexibility
 - respect for energy limits
 - and the freedom to play slowly, thoughtfully, and on our own terms

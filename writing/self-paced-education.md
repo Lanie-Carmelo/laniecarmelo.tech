@@ -1,5 +1,6 @@
 ---
 title: The Value of Self-Paced Education for Learners with Multiple Disabilities
+permalink: /writing/self-paced-education/
 ---
 
 _December 21, 2025_
