@@ -3,12 +3,12 @@ description: "Faith, technology, and disability advocacy"
 author: "Lanie Carmelo"
 email: "lanie.rarebird15@gmail.com"
 
-baseurl: ""  # leave blank unless your site is served from a subpath
+baseurl: "" # leave blank unless your site is served from a subpath
 url: "https://laniecarmelo.tech"
 
 # Social media links for SEO
 social:
-  name: Lanie Carmelo
+  name: Lanie Carmelo-Molinar
   links:
     - https://github.com/lanie-carmelo
     - https://www.linkedin.com/in/lanie-carmelo
