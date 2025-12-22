@@ -74,6 +74,7 @@ make serve
 ```
 
 This starts Jekyll with:
+
 - Live reload (automatically refreshes browser on changes)
 - Draft posts visible (posts in `_drafts` folder)
 
@@ -92,6 +93,7 @@ make lint
 ```
 
 This runs all quality checks:
+
 - Markdown linting
 - YAML validation
 - Spelling checks
@@ -154,6 +156,7 @@ gem install jekyll
 ### VS Code
 
 Install recommended extensions:
+
 - **Markdown All in One**: Markdown support
 - **EditorConfig**: Respects `.editorconfig` settings
 - **YAML**: YAML syntax highlighting
@@ -182,11 +185,60 @@ Only in emergencies:
 git commit --no-verify
 ```
 
+## Writing Workflow
+
+To add a new essay or article:
+
+1. Create a new markdown file in the `writing/` folder.
+2. Use `layout: article` and add a `date:` in the front matter.
+3. Add a summary and link to the new file in `writing.md`.
+
+- Manual curation of writing index is preferred for accessibility and simplicity. No automation required.
+
 ## Getting Help
 
 - Check [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines
 - Review [README.md](README.md) for project overview
 - Open an issue on GitHub for questions
+
+## Dependencies & GitHub Pages
+
+This project currently uses the `github-pages` gem (declared in `Gemfile`) to ensure builds are compatible with GitHub
+Pages. A few important notes:
+
+`_config.yml` such as `jekyll-seo-tag`, `jekyll-sitemap`, and `jekyll-feed` are provided by the `github-pages` stack and
+do not need separate `gem` declarations in `Gemfile` when you rely on GitHub Pages to build the site. However, this does
+mean that you cannot easily control the versions of Jekyll or those plugins independently. You are locked into the
+versions provided by the `github-pages` gem. If you need newer versions of those plugins or plugins not included in the
+Pages stack, you have two options: stop using `github-pages` and declare the specific `jekyll` and plugin gems you need
+(then use CI to build and deploy), or keep `github-pages` and add only the plugins explicitly required locally (not
+recommended because version resolution can conflict with the Pages bundle).
+
+Version pinning note:
+
+- When you use the `github-pages` gem, the exact versions of Jekyll, the theme, and supported plugins are determined by
+  the Pages bundle. This provides stability for GitHub-hosted builds but means you cannot freely upgrade those plugins
+  without switching away from the Pages bundle.
+- To see which versions are included in the Pages bundle, consult the GitHub Pages dependency documentation:
+  https://pages.github.com/versions
+- If you require later plugin releases or plugins not included in the Pages bundle, switch to a standalone Jekyll setup
+  (declare `jekyll` and the plugin gems you need) and add a CI workflow that runs `bundle exec jekyll build` to produce
+  and publish `_site`.
+
+Recommendations:
+
+- For a small, content-focused site, keep `github-pages` in `Gemfile` and rely on the Pages-provided plugins. Document
+  this choice (done here) so contributors understand why plugin gems are not listed explicitly.
+- If you want more control over plugin versions, switch to standalone Jekyll and add a build-and-deploy workflow (GitHub
+  Actions) that runs `bundle exec jekyll build` and publishes the generated `_site`.
+
+Commands (if you change the Gemfile):
+
+```bash
+# After editing Gemfile
+bundle install
+bundle exec jekyll serve
+```
 
 ## Next Steps
 

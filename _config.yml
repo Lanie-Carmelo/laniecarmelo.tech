@@ -3,41 +3,26 @@ description: "Faith, technology, and disability advocacy"
 author: "Lanie Carmelo"
 email: "lanie.rarebird15@gmail.com"
 
-baseurl: "" # leave blank unless your site is served from a subpath
 url: "https://laniecarmelo.tech"
+baseurl: "" # leave blank unless your site is served from a subpath
 
-# Social media links for SEO
-social:
-  name: Lanie Carmelo-Molinar
-  links:
-    - https://github.com/lanie-carmelo
-    - https://www.linkedin.com/in/lanie-carmelo
-    - https://allovertheplace.ca/@RareBird15
-    - https://x.com/RareBird_15
+# Using Minima as the base Jekyll theme; see SETUP.md for details on how
+# theme overrides and layouts behave.
 
-# Theme settings
 theme: minima
 
-# Header navigation - explicitly list pages to show in navigation
-header_pages:
-  - about.md
-  - work-and-learning.md
-  - writing.md
-  - accessibility-notes.md
-
-# Build settings
-markdown: kramdown
+# Note: These plugins are also bundled with the `github-pages` gem, but we
+# list them explicitly here so the site configuration is clear and so that
+# local builds (or non-GitHub Pages builds) behave consistently.
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-redirect-from
+  - jekyll-feed
 
-# SEO settings
+# Site settings
 lang: en_US
 timezone: America/Denver
 
-# Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -58,7 +43,18 @@ exclude:
   - SECURITY.md
   - README.md
 
-# Defaults for pages
+# Minima navigation (optional, can be customized further)
+nav:
+  - title: "About"
+    url: "/about/"
+  - title: "Work and Learning"
+    url: "/work-and-learning/"
+  - title: "Writing"
+    url: "/writing/"
+  - title: "Accessibility Notes"
+    url: "/accessibility-notes/"
+
+# Defaults for pages (optional, Minima uses its own layouts)
 defaults:
   - scope:
       path: ""

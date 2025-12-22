@@ -1,5 +1,7 @@
 ---
-title: About Me
+title: About Lanie Carmelo
+permalink: /about/
+layout: page
 ---
 
 Hi, I'm Lanie.
@@ -18,8 +20,8 @@ because traditional education options often aren't accessible or accommodating e
 
 In addition to my studies, I serve as **IT Manager** for my mom's small business, Apache Restoration & Design. In this
 role, I handle day-to-day technology decisions, software evaluation, accessibility considerations, and systems setup.
-This work gives me hands-on experience supporting real users with real constraints, and it strongly informs how I
-think about usability, sustainability, and accessibility in practice.
+This work gives me hands-on experience supporting real users with real constraints, and it strongly informs how I think
+about usability, sustainability, and accessibility in practice.
 
 My long-term goal is to help build or support a nonprofit by and for people with multiple disabilities, focused on
 access to resources, education, assistive technology, and community. I'm especially interested in work that recognizes

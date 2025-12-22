@@ -11,6 +11,19 @@ make clean          # Remove generated files
 make test           # Build and test site
 ```
 
+## Layouts
+
+- **default**: Homepage and landing pages
+- **page**: Informational pages
+- **article**: Essays and long-form writing (shows publish date)
+
+## Writing Workflow
+
+- To add a new essay or article:
+  1. Create a new markdown file in the `writing/` folder.
+  2. Use `layout: article` and add a `date:` in the front matter.
+  3. Add a summary and link to the new file in `writing.md`.
+
 ## 📝 File Organization
 
 ```text
@@ -44,6 +57,7 @@ make test           # Build and test site
 ## ✅ Before Committing
 
 Pre-commit hooks automatically check:
+
 - ✓ Trailing whitespace
 - ✓ YAML syntax
 - ✓ Markdown formatting (Node.js markdownlint-cli)
@@ -52,16 +66,19 @@ Pre-commit hooks automatically check:
 ## 🔧 Quick Fixes
 
 **Linting errors?**
+
 ```bash
 make fix
 ```
 
 **Port conflict?**
+
 ```bash
 bundle exec jekyll serve --port 4001
 ```
 
 **Update dependencies?**
+
 ```bash
 bundle update
 ```

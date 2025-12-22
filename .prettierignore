@@ -1,0 +1,2 @@
+# Ignore Jekyll layout files to prevent Prettier from reformatting Liquid tags
+_layouts/*.html

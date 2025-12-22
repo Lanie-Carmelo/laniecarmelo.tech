@@ -1,13 +1,13 @@
 ---
-layout: home
+layout: default
 title: Lanie Carmelo
 permalink: /
 ---
 
 Blind, autistic, chronically ill programmer, usability tester, and accessibility advocate focused on inclusive design.
 
-My work sits at the intersection of **faith, technology, and disability advocacy**.
-As a Christian, I approach accessibility as both a technical responsibility and a reflection of God's love for His children.
+My work sits at the intersection of **faith, technology, and disability advocacy**. As a Christian, I approach
+accessibility as both a technical responsibility and a reflection of God's love for His children.
 
 ---
 
@@ -51,6 +51,6 @@ You can find my current updates and reflections on Mastodon:
 
 ---
 
-*Faith, technology, and disability advocacy — working toward a more accessible world.*
+_Faith, technology, and disability advocacy — working toward a more accessible world._
 
 This site is intentionally small and updated selectively.

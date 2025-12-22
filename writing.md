@@ -1,14 +1,11 @@
 ---
 title: Writing
 permalink: /writing/
+layout: page
 ---
 
 I don't publish frequently, but sometimes I write longer pieces that I want to preserve — especially around
-accessibility, disability, faith, and technology.
-
-This page collects those writings in one place.
-
----
+accessibility, disability, faith, and technology. This page collects those writings in one place.
 
 ## Featured Writing
 

@@ -1,9 +1,9 @@
 ---
 title: What It's Like Gaming as a Blind, Autistic, Chronically Ill Woman
+layout: article
+date: 2024-12-08
 permalink: /writing/blind-autistic-gamer/
 ---
-
-_December 2024_
 
 Gaming has been a part of my life for as long as I can remember. From puzzles as a child to text-based adventures in
 school, games have always been a place of joy, challenge, and escape.

@@ -2,16 +2,9 @@
 
 source "https://rubygems.org"
 
-# GitHub Pages gem - keeps you in sync with GitHub Pages dependencies
+# GitHub Pages-compatible Jekyll stack, including Jekyll and common plugins
 gem "github-pages", group: :jekyll_plugins
 
-# Jekyll plugins
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-seo-tag", "~> 2.8"
-  gem "jekyll-sitemap", "~> 1.4"
-  gem "jekyll-redirect-from", "~> 0.16"
-end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", platforms: [:mingw, :x64_mingw, :mswin]

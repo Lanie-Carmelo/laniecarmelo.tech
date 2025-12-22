@@ -4,8 +4,8 @@
 
 [![CI](https://github.com/Lanie-Carmelo/laniecarmelo.tech/actions/workflows/ci.yml/badge.svg)](https://github.com/Lanie-Carmelo/laniecarmelo.tech/actions/workflows/ci.yml)
 
-Homepage and resource hub for Lanie Carmelo: Christian, blind programmer, disability advocate,
-and student. Includes faith reflections, accessible tech tips, and recommended tools.
+Homepage and resource hub for Lanie Carmelo: Christian, blind programmer, disability advocate, and student. Includes
+faith reflections, accessible tech tips, and recommended tools.
 
 ## 🌟 Features
 
@@ -14,6 +14,22 @@ and student. Includes faith reflections, accessible tech tips, and recommended t
 - **Automated Quality Checks**: Pre-commit hooks ensure code quality
 - **CI/CD Pipeline**: GitHub Actions for automated testing and validation
 - **Responsive**: Mobile-friendly design that works on all devices
+
+### Layouts
+
+This site uses three layouts for accessibility and simplicity:
+
+- **default**: Homepage and landing pages
+- **page**: Informational pages (about, accessibility notes, etc.)
+- **article**: Essays and long-form writing (shows publish date)
+
+### Writing Workflow
+
+- Featured writing is manually curated in `writing.md` for accessibility and ease of use.
+- To add a new essay or article:
+  1. Create a new markdown file in the `writing/` folder.
+  2. Use `layout: article` and add a `date:` in the front matter.
+  3. Add a summary and link to the new file in `writing.md`.
 
 ## 🚀 Quick Start
 
@@ -24,6 +40,7 @@ and student. Includes faith reflections, accessible tech tips, and recommended t
 - Git
 
 **For development:**
+
 - Pre-commit: `pipx install pre-commit` or use a Python virtual environment
 - markdownlint-cli: Installed automatically by pre-commit
 
@@ -59,7 +76,8 @@ make test      # Build and test the site
 
 ### Pre-commit Hooks
 
-This project uses [pre-commit](https://pre-commit.com/) to maintain code quality. Hooks run automatically before each commit and include:
+This project uses [pre-commit](https://pre-commit.com/) to maintain code quality. Hooks run automatically before each
+commit and include:
 
 - ✅ Trailing whitespace removal
 - ✅ End-of-file fixing
@@ -109,6 +127,7 @@ laniecarmelo.tech/
 - Use dashes for unordered lists
 - Always include alt text for images
 - Specify a language for fenced code blocks (e.g., `bash`, `text`)
+- For essays/articles, use `layout: article` and include a publish date in the front matter.
 
 ### Accessibility
 
@@ -116,11 +135,12 @@ laniecarmelo.tech/
 - Use semantic HTML elements
 - Maintain sufficient color contrast
 - Test with screen readers when possible
+- Manual curation of writing index for easier navigation and less cognitive load
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct
-and the process for submitting pull requests.
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the
+process for submitting pull requests.
 
 ## 📄 License
 
@@ -138,13 +158,20 @@ This project is licensed under the terms specified in [LICENSE](LICENSE).
 
 Built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).
 
+Note about dependencies: this repository uses the `github-pages` gem (see `SETUP.md`) so GitHub's Pages build
+environment provides the Jekyll version and common plugins (for example, `jekyll-seo-tag`, `jekyll-sitemap`, and
+`jekyll-feed`). The `github-pages` gem pins the exact versions of Jekyll and supported plugins used by GitHub Pages; if
+you require newer plugin releases or plugins not included in the Pages bundle, switch to a standalone Jekyll setup and
+add a CI workflow to build and publish the generated `_site`. See `SETUP.md` for full details and guidance.
+
 ---
 
-**Note:** Markdown linting is now handled by [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli) (Node.js version) via pre-commit. The old Ruby `.mdlrc` config is no longer used.
+**Note:** Markdown linting is now handled by [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli)
+(Node.js version) via pre-commit. The old Ruby `.mdlrc` config is no longer used.
 
 ---
 
 ## Quote
 
-*"Together, let's explore faith, technology, advocacy, and life—and work toward making the world
-more inclusive for everyone."*
+_"Together, let's explore faith, technology, advocacy, and life—and work toward making the world more inclusive for
+everyone."_

@@ -1,9 +1,9 @@
 ---
 title: The Value of Self-Paced Education for Learners with Multiple Disabilities
 permalink: /writing/self-paced-education/
+layout: article
+date: 2025-12-21
 ---
-
-_December 21, 2025_
 
 ## Introduction: Why Self-Paced Education Matters
 

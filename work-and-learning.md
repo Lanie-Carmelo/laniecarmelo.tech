@@ -1,9 +1,12 @@
 ---
-title: Projects
+title: Work and Learning
+permalink: /work-and-learning/
+layout: page
 ---
 
 I don't focus on building polished products for show. Most of my work is exploratory, accessibility-focused, or rooted
-in lived experience. This page highlights the kinds of projects I spend time on rather than a list of finished deliverables.
+in lived experience. This page highlights the kinds of projects I spend time on rather than a list of finished
+deliverables.
 
 ---
 
