@@ -13,21 +13,18 @@ accessibility as both a technical responsibility and a reflection of God's love 
 
 ## What I Focus On
 
-- **Accessibility & usability testing**
-  Evaluating software and digital tools with a focus on real-world accessibility for disabled users.
+- **Accessibility & usability testing** Evaluating software and digital tools with a focus on real-world accessibility
+  for disabled users.
 
-- **Programming & learning**
-  Building skills and projects with accessibility in mind from the start.
+- **Programming & learning** Building skills and projects with accessibility in mind from the start.
 
-- **Disability advocacy**
-  Sharing lived experience to help make technology more inclusive for people with multiple disabilities.
+- **Disability advocacy** Sharing lived experience to help make technology more inclusive for people with multiple
+  disabilities.
 
-- **Faith-informed perspective**
-  Approaching life, work, and advocacy through a Christ-centered lens.
+- **Faith-informed perspective** Approaching life, work, and advocacy through a Christ-centered lens.
 
-- **Documenting accessibility barriers**
-  Writing about recurring accessibility challenges I encounter in games and interactive media, grounded in lived
-  experience as a blind, autistic, chronically ill user.
+- **Documenting accessibility barriers** Writing about recurring accessibility challenges I encounter in games and
+  interactive media, grounded in lived experience as a blind, autistic, chronically ill user.
 
 ---
 
