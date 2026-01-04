@@ -5,9 +5,20 @@ layout: page
 ---
 
 I don't publish frequently, but sometimes I write longer pieces that I want to preserve — especially around
-accessibility, disability, faith, and technology. This page collects those writings in one place.
+accessibility, disability, faith, and technology, particularly as they intersect. This page collects those writings in
+one place.
 
 ## Featured Writing
+
+### Blind, Multiply Disabled, and Pushed Beyond Capacity: A Personal Narrative
+
+_January 4, 2026_
+
+A personal account of my experiences as a blind, multiply disabled student in a residential school setting, highlighting
+systemic failures and their long-term impact on health, functioning, and safety. (Includes discussion of medical trauma
+and institutional harm.)
+
+→ [Read the narrative](/writing/blind-multiply-disabled/)
 
 ### The Value of Self-Paced Education for Learners with Multiple Disabilities
 
