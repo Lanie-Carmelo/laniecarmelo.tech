@@ -1,29 +1,27 @@
 ---
 layout: default
-title: Lanie Carmelo
+title: Lanie (RareBird15)
 permalink: /
 ---
 
-Blind, autistic, chronically ill programmer, usability tester, and accessibility advocate focused on inclusive design.
+Working at the intersection of faith, technology, and disability advocacy.
 
-My work sits at the intersection of **faith, technology, and disability advocacy**. As a Christian, I approach
-accessibility as both a technical responsibility and a reflection of God's love for His children.
-
----
+My work focuses on **accessibility** as both a technical responsibility and a reflection of God’s love for His children,
+grounded in **faith**, **technology**, and **disability advocacy**.
 
 ## What I Focus On
 
-- **Accessibility & usability testing** Evaluating software and digital tools with a focus on real-world accessibility
+- **Accessibility & usability testing**: Evaluating software and digital tools with a focus on real-world accessibility
   for disabled users.
 
-- **Programming & learning** Building skills and projects with accessibility in mind from the start.
+- **Programming & learning**: Developing skills and projects with accessibility in mind from the start.
 
-- **Disability advocacy** Sharing lived experience to help make technology more inclusive for people with multiple
+- **Disability advocacy**: Sharing lived experience to help make technology more inclusive for people with multiple
   disabilities.
 
-- **Faith-informed perspective** Approaching life, work, and advocacy through a Christ-centered lens.
+- **Faith-informed perspective**: Approaching life, work, and advocacy through a Christ-centered lens.
 
-- **Documenting accessibility barriers** Writing about recurring accessibility challenges I encounter in games and
+- **Documenting accessibility barriers**: Writing about recurring accessibility challenges I encounter in games and
   interactive media, grounded in lived experience as a blind, autistic, chronically ill user.
 
 ---
@@ -42,7 +40,7 @@ accessibility as both a technical responsibility and a reflection of God's love 
 You can find my current updates and reflections on Mastodon:
 
 - <a rel="me" href="https://allovertheplace.ca/@RareBird15">Mastodon</a>
-- <a rel="me" href="https://github.com/lanie-carmelo">GitHub</a>
+- <a rel="me" href="https://github.com/RareBird15">GitHub</a>
 - <a rel="me" href="https://www.linkedin.com/in/lanie-carmelo">LinkedIn</a>
 - [Email](mailto:lanie.rarebird15@gmail.com)
 
